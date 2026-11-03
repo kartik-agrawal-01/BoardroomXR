@@ -1,0 +1,12 @@
+session,participant,date,study,mfa_login_s,gesture_verify_score,gesture_enrol_consistency,short_strokes_discarded,enrol_windows,genuine_windows_before_warning,genuine_mean_score,eer_heldout_end,induced_lockout,lockout_after_enrolment_s,first_warning_to_lockout_s,top_feature_at_lockout
+S01,P01,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",38.8,0.907,0.84,0,114,53,0.7037,0.545,yes,29.33,2.51,head_speed_mean
+S02,P02,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",34.3,0.954,0.9,0,114,7,0.4631,0.2325,yes,6.1,2.55,head_speed_mean
+S03,P03,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",48.5,0.938,0.84,1,114,12,0.5134,0.0963,yes,39.56,33.47,head_lhand_dist_mean
+S04,P03,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",20.0,0.928,0.73,0,114,35,0.5425,0.225,yes,20.24,2.52,head_speed_mean
+S05,P01,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",19.7,0.916,0.93,0,114,11,0.5479,0.5,yes,8.12,2.55,head_speed_mean
+S06,P01,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",15.0,0.947,0.93,0,114,5,0.2538,0.2975,yes,5.09,2.54,head_angvel_sd
+S07,P04,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",30.6,0.897,0.85,0,114,30,0.4542,0.0963,yes,17.76,2.55,head_height_mean
+S08,P04,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",31.4,0.839,0.94,0,114,9,0.373,0.2,no,,,
+S09,P03,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",32.7,0.812,0.74,0,114,7,0.5507,0.1512,no,,,
+S10,P02,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",88.9,0.779,0.83,22,114,8,0.328,0.125,yes,16.22,12.15,rhand_speed_mean
+S11,P02,2026-10-27,"team study (4 team members, deliberately varied behaviour per session; build v5, Balanced preset)",18.3,0.938,0.73,0,114,13,0.3205,0.3762,yes,9.12,2.55,head_speed_mean

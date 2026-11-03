@@ -1,0 +1,28 @@
+% Local preview that mimics IEEE conference layout (IEEEtran.cls is not installed here).
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[top=0.75in,bottom=1in,left=0.625in,right=0.625in,columnsep=0.25in]{geometry}
+\usepackage{mathptmx,graphicx,amsmath,amssymb,booktabs,enumitem,tikz,url,microtype}
+\usetikzlibrary{positioning,fit,arrows.meta}
+\usepackage[compact]{titlesec}
+\renewcommand\thesection{\Roman{section}}
+\renewcommand\thesubsection{\Alph{subsection}}
+\titleformat{\section}{\centering\normalsize\scshape}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\itshape}{\thesubsection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{8pt}{4pt}\titlespacing*{\subsection}{0pt}{6pt}{2pt}
+\usepackage{caption}\captionsetup{font=footnotesize,labelsep=period}
+\captionsetup[table]{labelformat=simple,labelsep=newline,justification=centering,font={footnotesize,sc}}
+\renewcommand\thetable{\Roman{table}}
+\newcommand\IEEEauthorblockN[1]{{\large #1}\\[2pt]}
+\newcommand\IEEEauthorblockA[1]{{\normalsize\itshape #1}}
+\newenvironment{IEEEkeywords}{\par\noindent\footnotesize\bfseries\itshape Index Terms---\upshape\mdseries}{\par\medskip}
+\renewenvironment{abstract}{\noindent\footnotesize\bfseries\itshape Abstract---\upshape}{\par\smallskip}
+\makeatletter\renewcommand\@maketitle{\begin{center}{\LARGE \@title\par}\vskip 1em{\@author}\end{center}\vskip 1.2em}\makeatother
+\pagestyle{plain}
+\begin{document}
+\title{Who Is Wearing the Headset? Continuous Behavioural Authentication for Collaborative VR, from Simulation to the Headset}
+\author{\IEEEauthorblockN{Kartik Agrawal, Soha Chand, Atharv Dixit, Ojaswi Gondalia}
+\IEEEauthorblockA{Mukesh Patel School of Technology Management \& Engineering (MPSTME)\\SVKM's NMIMS, Mumbai, India}}
+\date{}
+\maketitle
+\input{body}
+\end{document}

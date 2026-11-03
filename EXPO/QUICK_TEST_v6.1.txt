@@ -1,0 +1,34 @@
+BOARDROOMXR v6.1 - QUICK TEST (about 12 minutes)
+
+SET UP (2 min)
+1. Plug the headset into the laptop with the USB-C cable. Headset on, press ALLOW (tick "Always").
+2. Double-click EXPO\1_INSTALL_v6.bat. It installs v6.1 and starts the app.
+   "NO HEADSET FOUND" -> run 9_FIX_HEADSET_CONNECTION.bat, then 1 again.
+3. Optional, for a clean start: 3_NEW_VISITOR_WIPE_PROFILES.bat, press Y.
+
+LOG IN (2 min)
+4. At the badge wall pick EMP-1001. "Access revoked ... re-authenticate" is normal: it just means log in now.
+5. PIN on the keypad -> hold trigger and draw the signature -> type the code from the token.
+6. Doors open. Move naturally for 30 s until the bar is full and the display says "Identity verified".
+
+TEST 1 - DISPLAY ALWAYS ON TOP (1 min)
+7. Walk up to the wall screen and the SOC panel and look through them.
+   PASS: the status text stays in front of every panel, on its dark plate.
+
+TEST 2 - GENUINE USER SITS DOWN (3 min)
+8. Sit on a chair and keep using the controllers normally.
+   PASS: within about 5 s the display says "Movement changed. Is it still you?" with a 15 s countdown.
+9. Hold trigger and draw the signature.
+   PASS: "Signature confirmed. Learning your new posture" for 10 s, then green again.
+10. Stand up. PASS: stays green.
+
+TEST 3 - INTRUDER WHO KNOWS THE SIGNATURE (3 min)
+11. Hand the headset to someone of similar height. They stay standing and move in their own way.
+    PASS: amber, controllers buzz, then "IMPOSTOR DETECTED - ACCESS LOCKED" with NO signature prompt.
+    Doors close red, and the "In this meeting" board shows red.
+
+IF A TEST FAILS
+- Run 6_PULL_LOGS_NOW.bat and send the log to Claude.
+- Give the jury the build sent last night, not this one.
+IF ALL PASS
+- Give EXPO\IVRAR-G13.apk (same file as BoardroomXR_v6.apk) to the AR/VR tech volunteer before 12:00.

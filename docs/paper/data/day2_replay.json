@@ -1,0 +1,78 @@
+{
+ "all": {
+  "Strict": {
+   "threshold": 0.25,
+   "k": 4,
+   "genuine_streams": 11,
+   "false_lock": 8,
+   "eligible": 30,
+   "detected": 27,
+   "det_rate": 0.9,
+   "lat_mean": 5.7592592592592595,
+   "lat_median": 3.5,
+   "lat_p95": 17.75
+  },
+  "Balanced": {
+   "threshold": 0.15,
+   "k": 6,
+   "genuine_streams": 11,
+   "false_lock": 4,
+   "eligible": 70,
+   "detected": 41,
+   "det_rate": 0.5857142857142857,
+   "lat_mean": 5.719512195121951,
+   "lat_median": 4.5,
+   "lat_p95": 13.5
+  },
+  "Relaxed": {
+   "threshold": 0.1,
+   "k": 8,
+   "genuine_streams": 11,
+   "false_lock": 4,
+   "eligible": 70,
+   "detected": 33,
+   "det_rate": 0.4714285714285714,
+   "lat_mean": 7.757575757575758,
+   "lat_median": 6.5,
+   "lat_p95": 14.599999999999998
+  }
+ },
+ "geo": {
+  "Strict": {
+   "threshold": 0.25,
+   "k": 4,
+   "genuine_streams": 11,
+   "false_lock": 5,
+   "eligible": 60,
+   "detected": 53,
+   "det_rate": 0.8833333333333333,
+   "lat_mean": 3.6037735849056602,
+   "lat_median": 3.0,
+   "lat_p95": 6.899999999999995
+  },
+  "Balanced": {
+   "threshold": 0.15,
+   "k": 6,
+   "genuine_streams": 11,
+   "false_lock": 4,
+   "eligible": 70,
+   "detected": 59,
+   "det_rate": 0.8428571428571429,
+   "lat_mean": 4.703389830508475,
+   "lat_median": 4.5,
+   "lat_p95": 10.5
+  },
+  "Relaxed": {
+   "threshold": 0.1,
+   "k": 8,
+   "genuine_streams": 11,
+   "false_lock": 2,
+   "eligible": 90,
+   "detected": 72,
+   "det_rate": 0.8,
+   "lat_mean": 5.340277777777778,
+   "lat_median": 6.0,
+   "lat_p95": 9.07500000000001
+  }
+ }
+}

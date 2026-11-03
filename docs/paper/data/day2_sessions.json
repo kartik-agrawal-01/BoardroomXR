@@ -1,0 +1,112 @@
+[
+ {
+  "f": "scores_EMP-1001_enrol_20261027_071350.csv",
+  "dev": 0.01555721088013895,
+  "lock": true,
+  "enrol_end": 60.699,
+  "t_lock_after_enrol": 8.119,
+  "warn_to_lock": 2.5459999999999923,
+  "pre_mean": 0.5478909090909091,
+  "n_pre": 11
+ },
+ {
+  "f": "scores_EMP-1001_enrol_20261027_071945.csv",
+  "dev": 4.576658595023542e-05,
+  "lock": true,
+  "enrol_end": 60.815,
+  "t_lock_after_enrol": 17.763000000000005,
+  "warn_to_lock": 2.5450000000000017,
+  "pre_mean": 0.45415000000000005,
+  "n_pre": 30
+ },
+ {
+  "f": "scores_EMP-1001_enrol_20261027_072550.csv",
+  "dev": 4.465332767633612e-05,
+  "lock": false,
+  "enrol_end": 60.717,
+  "t_lock_after_enrol": null,
+  "warn_to_lock": null,
+  "pre_mean": 0.5507428571428571,
+  "n_pre": 7
+ },
+ {
+  "f": "scores_EMP-1002_enrol_20261027_064808.csv",
+  "dev": 0.00562947755348564,
+  "lock": true,
+  "enrol_end": 60.634,
+  "t_lock_after_enrol": 6.096000000000004,
+  "warn_to_lock": 2.548000000000002,
+  "pre_mean": 0.4630714285714285,
+  "n_pre": 7
+ },
+ {
+  "f": "scores_EMP-1002_enrol_20261027_070030.csv",
+  "dev": 0.037748516594338644,
+  "lock": true,
+  "enrol_end": 60.66,
+  "t_lock_after_enrol": 20.239000000000004,
+  "warn_to_lock": 2.519999999999996,
+  "pre_mean": 0.5425085714285715,
+  "n_pre": 35
+ },
+ {
+  "f": "scores_EMP-1002_enrol_20261027_073523.csv",
+  "dev": 5.460103060517252e-05,
+  "lock": true,
+  "enrol_end": 60.663,
+  "t_lock_after_enrol": 9.117000000000004,
+  "warn_to_lock": 2.5490000000000066,
+  "pre_mean": 0.32052307692307697,
+  "n_pre": 13
+ },
+ {
+  "f": "scores_EMP-1003_enrol_20261027_065223.csv",
+  "dev": 0.08387129483616929,
+  "lock": true,
+  "enrol_end": 60.731,
+  "t_lock_after_enrol": 39.556000000000004,
+  "warn_to_lock": 33.46900000000001,
+  "pre_mean": 0.5133833333333334,
+  "n_pre": 12
+ },
+ {
+  "f": "scores_EMP-1003_enrol_20261027_071545.csv",
+  "dev": 0.005716967796151717,
+  "lock": true,
+  "enrol_end": 60.723,
+  "t_lock_after_enrol": 5.094999999999999,
+  "warn_to_lock": 2.5360000000000014,
+  "pre_mean": 0.25378,
+  "n_pre": 5
+ },
+ {
+  "f": "scores_EMP-1003_enrol_20261027_072236.csv",
+  "dev": 5.084525025933484e-05,
+  "lock": false,
+  "enrol_end": 60.729,
+  "t_lock_after_enrol": null,
+  "warn_to_lock": null,
+  "pre_mean": 0.3730222222222222,
+  "n_pre": 9
+ },
+ {
+  "f": "scores_EMP-2e373121_enrol_20261027_064339.csv",
+  "dev": 0.06645439856342483,
+  "lock": true,
+  "enrol_end": 60.658,
+  "t_lock_after_enrol": 29.33,
+  "warn_to_lock": 2.5120000000000005,
+  "pre_mean": 0.7036754716981131,
+  "n_pre": 53
+ },
+ {
+  "f": "scores_EMP-2e373121_enrol_20261027_073041.csv",
+  "dev": 4.7432760387320846e-05,
+  "lock": true,
+  "enrol_end": 60.714,
+  "t_lock_after_enrol": 16.21900000000001,
+  "warn_to_lock": 12.15400000000001,
+  "pre_mean": 0.3279875,
+  "n_pre": 8
+ }
+]

@@ -1,0 +1,39 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Builds: APKs go in GitHub Releases, never in git
+*.apk
+*.aab
+*.symbols.zip
+
+# Demo-day captures (research data, not source)
+EXPO/logs/
+Tools/
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.suo
+*.pidb
+*.booproj
+*.svd
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc

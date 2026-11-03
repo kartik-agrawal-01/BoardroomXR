@@ -1,0 +1,40 @@
+BOARDROOMXR v6 - WHAT TO RUN WHEN (all files are in PROJECT_FINAL\EXPO)
+
+BEFORE THE EXPO
+  BUILD_AND_TEST_v6.bat   (project folder) builds and tests v6. Unity must be closed.
+  1_INSTALL_v6.bat         puts v6 on the headset, keeps profiles.
+  KEEP_AWAKE_ON.bat        headset keeps running when taken off (needed for handovers).
+  4_START_EXPO.bat         the normal expo runner: logs, dashboard, visitor menu (V/P/R/D/Q).
+
+DURING THE EXPO
+  Next visitor should enrol fresh ............ 3_NEW_VISITOR_WIPE_PROFILES.bat
+  App frozen / stuck / black screen .......... 2_RESTART_APP.bat
+  Laptop dashboard blank or "no data" ........ 5_RECONNECT_DASHBOARD.bat
+  Laptop does not see the headset ............ 9_FIX_HEADSET_CONNECTION.bat
+  Want a picture of what the visitor sees .... 7_SCREENSHOT_HEADSET.bat
+  Save the data right now .................... 6_PULL_LOGS_NOW.bat
+  v6 misbehaving, go back to v5 .............. 8_ROLLBACK_TO_v5.bat
+  Nothing else works ......................... RESET_EVERYTHING_LAST_RESORT.bat (pulls logs first)
+
+IN THE HEADSET
+  Left Y button   presenter console (presets, enrol length, resets, attacks,
+                  posture step-up ON/OFF, privacy panel, clear silent alert)
+  Right B button  privacy panel
+  Forced lockout  presenter console > FORCE LOCKOUT (logged as a demo, not a detection)
+
+NEW IN v6 - HOW TO SHOW EACH
+  Posture fix      Log in standing, then sit down. The controllers buzz, the HUD asks
+                   for the signature. Draw it: "learning your new posture" for 10 s,
+                   then verified while seated. Next time seated is recognised at once.
+                   A different person cannot draw the signature: locked out after 15 s.
+  Trust badge      "In this meeting" board on the left wall and the laptop dashboard:
+                   green verified, amber warning, orange re-checking, red locked.
+  Vibration        Felt as soon as the score drops into warning, before any lockout.
+  Panic gesture    At login (or a step-up) draw the signature BACKWARDS. The login looks
+                   normal in the headset; the laptop dashboard shows a red
+                   SILENT DURESS ALERT. Clear it from the presenter console.
+  Privacy panel    Right B button. What is stored, where, who sees it, and a
+                   "Delete my data" button that really deletes this badge's data.
+
+AFTER THE EXPO
+  KEEP_AWAKE_OFF.bat, then Q in the START_EXPO window to analyse the session.
